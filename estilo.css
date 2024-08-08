@@ -27,7 +27,7 @@ header {
 .logito{
   font-family:merienda;
   font-size: 0.6em;
-  position: relative;
+  position: auto;
   margin-left: 50%;
   text-align: center;
   background-image: url("img/migrante.gif");
