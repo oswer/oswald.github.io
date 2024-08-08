@@ -46,7 +46,7 @@ header {
 }
 #avatar img{
     position: relative;
-    top: -0px; /* ajustar los valores para mover la imagen */
+    top: -140px; /* ajustar los valores para mover la imagen */
     width: 120px;
     height: 180px;
     display: block;
