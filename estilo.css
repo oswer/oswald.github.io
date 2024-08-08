@@ -37,21 +37,15 @@ header {
   border-radius: 60%;
  
 }
-#avatar {
-	margin-left: 65%;
-    width: 165px;
-    height: 65px;
-    position: relative;
- 
-}
 #avatar img{
-    position: relative;
-    top: -140px; /* ajustar los valores para mover la imagen */
-    width: 120px;
+    position: absolute;
+    margin-left: 50%;
+    top: -20px;
+ /* ajustar los valores para mover la imagen */
+    width: 220px;
     height: 180px;
     display: block;
 }
-
 /*
 nav ul{
 	background-color: #757575;
