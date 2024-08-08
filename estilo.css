@@ -25,26 +25,14 @@ header {
 	
 }
 
-.logito{
-  font-family:merienda;
-  font-size: 0.6em;
-  position: auto;
-  margin-left: 50%;
-  text-align: center;
-  background-image: url("img/migrante.gif");
-  background-size: cover;
-  width: 160px;
-  height: 90px;
-  border-radius: 60%;
- 
-}
+
 #avatar img{
     position: absolute;
     margin-left: 50%;
     top: -50px;
  /* ajustar los valores para mover la imagen */
-    width: 220px;
-    height: 180px;
+    width: 320px;
+    height: 220px;
     display: block;
 }
 /*
