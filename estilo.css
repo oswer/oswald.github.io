@@ -46,9 +46,9 @@ header {
 }
 #avatar img{
     position: relative;
-    top: -200px; /* ajustar los valores para mover la imagen */
-    width: 320px;
-    height: 280px;
+    top: -0px; /* ajustar los valores para mover la imagen */
+    width: 120px;
+    height: 180px;
     margin: 30%;
     display: block;
 }
