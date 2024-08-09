@@ -151,7 +151,7 @@ img {
 	width: 100%;
 	background-color: #ffc;
 	max-width: 1200px;
-	max-height:1200px;
+	
 }
 @media (min-width: 450px){
 	.contenido{
