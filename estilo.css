@@ -13,7 +13,7 @@ header {
 	background-image: url("img/fondito.jpg");
 	height:250px;
 	background-size: cover;
-	max-width:1000px;
+	max-width:1200px;
 	min-width: 400px;
 	max-height: 240px;
 }
@@ -150,9 +150,9 @@ img {
 	margin: 0px;
 	width: 100%;
 	background-color: #ffc;
-	max-width: 1000px;
+	max-width: 1200px;
 }
-@media (min-width: 950px){
+@media (min-width: 450px){
 	.contenido{
 		color: blue;
 		font-size: 18px;
@@ -197,7 +197,7 @@ footer{
 	background-color: black;
 	color: white;
 	margin-top: 0px;
-	max-width:1000px;
+	max-width:1200px;
 }
 footer p{
 	text-align: center;
