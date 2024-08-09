@@ -28,7 +28,7 @@ header {
 
 #avatar img{
     position: absolute;
-    margin-left: 50%;
+    margin-left: 40%;
     top: -50px;
  /* ajustar los valores para mover la imagen */
     width: 320px;
