@@ -183,6 +183,7 @@ img {
 	margin-top: 0px;
 	background-color: #f7dc6f;
 	max-width: 100%;
+	max-height:100%;
 	border-radius: 1px;
 	margin: 2px;
 
@@ -199,7 +200,6 @@ footer{
 	height: 35px;
 	background-color: black;
 	color: white;
-	margin-top: 0px;
 	max-width:1200px;
 }
 footer p{
@@ -253,7 +253,7 @@ position: relative;
 .slider-frame ul {
 display: flex;
 padding: 0;
-width: 300%;
+width: 280%;
 animation: slide 20s infinite alternate ease-in-out;
 }
 
