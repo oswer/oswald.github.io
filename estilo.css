@@ -292,6 +292,14 @@ width: 100%;
 	100% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+#fecha{
+width: 300px;
+position: auto;
+border: 1px solid green;
+background: rgb(255,255,224);
+color: black;
+
+}
 
 
 /*NUEVO MENU  IZQUIERDO  EEEEEEO POR FAVORp¨
