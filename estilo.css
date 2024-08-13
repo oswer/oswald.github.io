@@ -187,6 +187,7 @@ img {
 }
 @media (min-width: 767px){
 	.articulos a img{
+		width:100%;
 		color: blue;
 		font-size: 14px;
 	}
