@@ -59,6 +59,7 @@ nav li:hover{
 #contenedor{
 	width: 100%;
 	max-width: 1000px;
+	max-height:1800;
 	margin: 0 auto;
 	overflow: hidden;
 }
