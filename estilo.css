@@ -167,8 +167,9 @@ img {
 	background-color:#fff;
 	text-align: center;
 	float: left;
-	max-width: 800px;
-	max-height: 1200px;
+	
+	/*max-width: 800px;
+	max-height: 1200px;*/
 }
 @media (min-width: 767px){
 	.articulos a img{
