@@ -152,10 +152,9 @@ img {
 	width: 100%;
 	height:100%;
 	background-color: #ffc;
-	max-width: 1200px;
 	
 }
-@media (min-width: 450px){
+@media (min-width: 850px){
 	.contenido{
 		color: blue;
 		font-size: 18px;
