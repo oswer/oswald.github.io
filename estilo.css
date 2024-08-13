@@ -186,7 +186,7 @@ img {
 	max-height: 1200px;*/
 }
 @media (min-width: 767px){
-	.articulos a img{
+	.articulos a{
 		width:100%;
 		color: blue;
 		font-size: 14px;
