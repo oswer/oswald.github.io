@@ -125,7 +125,6 @@ header{
 
 .menu li:hover .submenu{
 	visibility: visible;
-	font-family: merienda;
 	opacity: 1;
 }
 /* para que no agarre la imagen y la redondeeeeeeeee
