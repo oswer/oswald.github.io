@@ -187,8 +187,9 @@ img {
 }
 @media (min-width: 767px){
 	.articulos a img{
+		font-family:monaco;
 		color: blue;
-		font-size: 14px;
+		font-size: 1.4em;
 	}
 	
 }
