@@ -80,7 +80,7 @@ nav li:hover{
 	rgba(46,149,87,1) 0%, 
 	rgba(102,205,170,1) 13%, 
 	rgba(11,131,115,1) 100%);
-	width: 120%;
+	width: 100%;
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 1.5s;
