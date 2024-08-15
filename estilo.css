@@ -260,10 +260,12 @@ background: rgb(50,38,247);
    
 }
 
-.titulo-bonito{
+.titulo-bonito{width:100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 color: black;
+	position: relative;
+	overflow: hidden;
 }
 
 #fecha{
