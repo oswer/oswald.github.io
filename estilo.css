@@ -18,9 +18,10 @@ body{
 
 #avatar img{
     position: absolute;
+	margin-left:60%;
  /* ajustar los valores para mover la imagen */
-    width: 320px;
-    height: 220px;
+    width: 250px;
+    height: 180px;
 }
 
 /*
