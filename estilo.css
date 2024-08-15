@@ -140,7 +140,7 @@ img {
 	
 }
 
-.articulos{
+.articulos{flex-flow: row wrap;
 	border-radius: 1px;
 	margin: 2px;
 	background-color:#fff;
