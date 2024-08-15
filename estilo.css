@@ -182,13 +182,17 @@ img {
 }
 
 .menu-secundario{
-	width: 40%;
+	width: 20%;
 	background-color: #f7dc6f;
 	max-width: 100%;
 	border-radius: 1px;
 	margin: 2px;
 
 
+}
+.menu-secundario a{
+	text-align: center;
+	color: black;
 }
 
 footer{
