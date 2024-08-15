@@ -131,10 +131,8 @@ img {
 
 .contenido{
 	display: flex;
-	margin: 4px;
 	width: 100%;
 	background-color: #ffc;
-	max-width: 1150px;
 }
 @media (min-width: 450px){
 	.contenido{
