@@ -136,7 +136,7 @@ img {
 	flex-flow: row wrap;
 	background-color:#fff;
 	text-align: center;
-	max-width: 60%;
+	max-width: 500px;
 	border-radius: 1px;
 	margin: 2px;
 }
