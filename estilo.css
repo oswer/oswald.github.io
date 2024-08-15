@@ -119,7 +119,7 @@ img {
 
 .contenido{
 	display: flex;
-	width: 80%;
+	width: 100%;
 	background-color: #ffc;
 	max-width: 800px;
 }
@@ -132,7 +132,6 @@ img {
 }
 
 .articulos{
-	display: flex;
 	flex-flow: row wrap;
 	background-color:#fff;
 	text-align: center;
