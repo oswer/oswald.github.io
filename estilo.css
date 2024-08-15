@@ -140,7 +140,8 @@ img {
 	
 }
 
-.articulos{flex-flow: row wrap;
+.articulos{display:flex;
+	flex-flow: row wrap;
 	border-radius: 1px;
 	margin: 2px;
 	background-color:#fff;
@@ -277,7 +278,7 @@ background: rgb(50,38,247);
    
 }
 
-.titulo-bonito{
+.titulo-bonito{width:100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 color: black;
