@@ -1,20 +1,15 @@
 
 body{
-	margin: 1px;
-	padding:10px;
+	margin-left:20px;
 	background-image: url("images/roraima.jpeg");
-	width: 950px;
 	background-size: cover;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing: border-box;
-
+	width: 950px;
 }
 
-
 #avatar img{
+ top: -46px;
     position: absolute;
-    margin-left: 70%;
+    margin-left: 60%;
  /* ajustar los valores para mover la imagen */
     width: 250px;
     height: 180px;
@@ -124,7 +119,7 @@ img {
 
 .contenido{
 	display: flex;
-	width: 100%;
+	width: 80%;
 	background-color: #ffc;
 }
 @media (min-width: 450px){
