@@ -1,10 +1,9 @@
 
-
 body{
 	margin: 15px;
 	padding:10px;
 	background-image: url("images/roraima.jpeg");
-	width:900px;
+	width: 950px;
 	background-size: cover;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -12,14 +11,10 @@ body{
 
 }
 
-@media screen and (max-width:640px){
- 		.gdpr.gdpr-general-confirmation .gdpr-wrapper>
- 		header .gdpr-box-title h3{
- 	font-size:18px!important}}
 
 #avatar img{
     position: absolute;
-	margin-left:60%;
+    margin-left: 50%;
  /* ajustar los valores para mover la imagen */
     width: 250px;
     height: 180px;
@@ -49,16 +44,20 @@ nav li:hover{
 #contenedor{
 	width: 100%;
 	max-width: 900px;
-	max-height:1200px;
-	margin: 0 auto;
+	margin: auto;
+	grid-gap: 15px;
 	overflow: hidden;
-}
-@media #contenedor and{ max-width:640px;{
+
+}@media #contenedor and{ max-width:640px;{
 
 	font-family: arial;} }
 
+header{
+	width: 100%;
+}
+
 .navegacion{
-	width: 1000px;
+	width: 900px;
 	margin: 40px auto;
 	margin-left: -30px;
 }
@@ -149,19 +148,13 @@ img {
 	}
 	
 }
-@media (max-height: 1100px){
-	.contenido{
-		color: blue;
-		font-size: 18px;
-	}
-	
-}
+
 .articulos{
 	display: flex;
 	flex-flow: row wrap;
 	background-color:#fff;
 	text-align: center;
-	max-width: 60%;
+	max-width: 70%;
 	max-height: 1100px;
 	border-radius: 1px;
 	margin: 2px;
@@ -175,7 +168,9 @@ img {
 }
 
 .menu-secundario{
+	display: block;
 	width: 20%;
+	margin-top: 0px;
 	background-color: #f7dc6f;
 	max-width: 100%;
 	border-radius: 1px;
@@ -184,17 +179,17 @@ img {
 
 }
 .menu-secundario a{
+	display: block;
 	text-align: center;
 	color: black;
 }
-
 footer{
 	width: 100%;
 	background-color: black;
 	font-family: merienda;
 	color: white;
 	text-align: center;
-	max-width:1150px;
+	max-width:900px;
 }
   
 
@@ -249,11 +244,10 @@ background: rgb(50,38,247);
    
 }
 
-.titulo-bonito{width:100%;
+.titulo-bonito{width: 100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 color: black;
-	
 }
 
 #fecha{
@@ -264,6 +258,8 @@ background: rgb(255,255,224);
 color: black;
 
 }
+
+
 
 
 
