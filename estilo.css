@@ -137,8 +137,6 @@ img {
 	background-color:#fff;
 	text-align: center;
 	max-width: 500px;
-	border-radius: 1px;
-	margin: 2px;
 }
 @media (max-width: 767px){
 	.articulos a img{
