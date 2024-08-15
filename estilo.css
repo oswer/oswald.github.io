@@ -1,3 +1,8 @@
+html{
+ 	font-family:sans-serif;
+ 	-webkit-text-size-adjust:100%;
+ 	-ms-text-size-adjust:100%}
+
 body{
 	margin: 15px;
 	padding:15px;
@@ -8,6 +13,11 @@ body{
 	box-sizing: border-box;
 
 }
+
+@media screen and (max-width:640px){
+ 		.gdpr.gdpr-general-confirmation .gdpr-wrapper>
+ 		header .gdpr-box-title h3{
+ 	font-size:18px!important}}
 
 #avatar img{
     position: absolute;
@@ -43,6 +53,13 @@ nav li:hover{
 	max-height:1800px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+@media #contenedor and{ max-width:640px;{
+
+	font-family: arial;} }
+
+header{
+	width: 100%;
 }
 header{
 	width: 100%;
