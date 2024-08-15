@@ -165,7 +165,8 @@ img {
 	
 }
 .articulos{
-	
+	display: flex;
+	flex-flow: row wrap;
 	background-color:#fff;
 	text-align: center;
 	max-width: 70%;
