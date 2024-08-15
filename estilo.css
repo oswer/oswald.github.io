@@ -123,6 +123,7 @@ img {
 	width: 100%;
 	background-color: #ffc;
 	max-width: 1000px;
+	box-sizing: border-box;
 }
 @media (min-width: 450px){
 	.contenido{
