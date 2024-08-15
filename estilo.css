@@ -77,6 +77,9 @@ nav li:hover{
 	position: absolute;
 	background: rgb(255,255,224);
 	background: linear-gradient(17deg, 
+	rgba(46,149,87,1) 0%, 
+	rgba(102,205,170,1) 13%, 
+	rgba(11,131,115,1) 100%);		    
 	width: 100%;
 	visibility: hidden;
 	opacity: 0;
