@@ -9,28 +9,9 @@ body{
 
 }
 
-header {
-	width:100%; 
-	overflow:hidden;
-	background-image: url("img/fondito.jpg");
-	height: 250px;
-	background-size: cover;
-	max-width:1050px;
-	min-width: 400px;
-}
-
-@media (min-width: 450px){ /*767*/
-	header{
-
-	}
-	
-}
-
-
 #avatar img{
     position: absolute;
     margin-left: 40%;
-    top: -80px;
  /* ajustar los valores para mover la imagen */
     width: 320px;
     height: 220px;
