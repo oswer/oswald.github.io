@@ -41,20 +41,6 @@ nav li:hover{
 	background-color: black;
 }
 */
-#contenedor{
-	width: 100%;
-	max-width: 900px;
-	margin: auto;
-	grid-gap: 15px;
-	overflow: hidden;
-
-}@media #contenedor and{ max-width:640px;{
-
-	font-family: arial;} }
-
-header{
-	width: 100%;
-}
 
 .navegacion{
 	width: 900px;
