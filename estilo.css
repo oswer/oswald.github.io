@@ -181,7 +181,8 @@ img {
 }
 
 .menu-secundario{
-	width: 30%;
+	display:block;
+	width: 40%;
 	margin-top: 0px;
 	background-color: #f7dc6f;
 	max-width: 100%;
