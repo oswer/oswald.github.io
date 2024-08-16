@@ -15,11 +15,8 @@ html{
 
 
 
-#avatar img{
-	top: -46px;
-    position: absolute;
-    margin-left: 40%;
- 
+#avatar img{ position:relative;
+
  /* ajustar los valores para mover la imagen */
     width: 250px;
     height: 180px;
@@ -48,7 +45,7 @@ nav li:hover{
 */
 
 .navegacion{
-	width: 1000px;
+	width: 700px;
 	margin: 40px auto;
 	margin-left:-30px;
 }
