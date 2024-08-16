@@ -26,10 +26,9 @@ body {
   background-image: url("header/fondo.jpg");
   background-size: cover;
 }
-.nav_logo{
-  top: -22px;
+.logo{
+  position: absolute;top: -92px;right: 25px;
 }
-
 .navbar {
   grid-area: navbar;
   background-color: #afd6af;
