@@ -52,7 +52,10 @@ color: black;
 
 .footer {
   grid-area: footer;
-  background-color: #8c96a0;
+  background-color: black;
+	color: white;
+	text-align: center;
+	font-family: merienda;
 }
 
 .grid-container {
