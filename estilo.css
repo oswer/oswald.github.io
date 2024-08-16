@@ -27,7 +27,7 @@ body {
   background-size: cover;
 }
 .logo{
-  position: auto;
+  position: absolute;
 }
 .navbar {
   grid-area: navbar;
