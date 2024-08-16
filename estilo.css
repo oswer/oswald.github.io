@@ -4,12 +4,13 @@ html{
  	-ms-text-size-adjust:100%;
  }
 
-
-body{
-	background-image: url("images/roraima.jpeg");
-	background-size: cover;
-
+@media (min-width: 767px){
+	body{
+		background-image: url("images/roraima.jpeg");
+		background-size: cover;
+	}
 }
+
 
 
 #avatar img{
