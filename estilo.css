@@ -27,7 +27,7 @@ body {
   background-size: cover;
 }
 .logo{
-  position: absolute;top: -92px;right: 25px;
+  position: absolute;top: -92px;right: 45px;
 }
 .navbar {
   grid-area: navbar;
