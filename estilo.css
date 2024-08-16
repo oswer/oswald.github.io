@@ -2,6 +2,8 @@ html{
  	font-family:sans-serif;
  	-webkit-text-size-adjust:100%;
  	-ms-text-size-adjust:100%;
+	 width: 1000px;
+ 	background-color: #3cb371;
  }
 
 @media (min-width: 767px){
