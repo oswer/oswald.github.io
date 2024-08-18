@@ -167,7 +167,8 @@ img {
 	background-color: #ffc;
 	max-width: 1000px;
 }
-.articulos{
+.articulos{display: flex;
+	flex-flow: row wrap;
 width: 100%;
 max-width: 1000px;
 background-color:#fff;
@@ -319,27 +320,18 @@ background: rgb(50,38,247);
    
 }
 
-.titulo-bonito{
+
+.titulo-bonito{width: 180px;
 border: 1px solid green;
 background: rgb(255,255,224);
-background: linear-gradient(17deg, 
-rgba(46,149,87,1) 0%, 
-rgba(102,205,170,1) 13%, 
-rgba(11,131,115,1) 100%);
-color: white;
-padding: 5px;
-padding-inline: 10px;
+
 border-radius: 10px;
 }
 .titulo-bonito2{
+width: 100%;
 border: 1px solid green;
 background: rgb(255,255,224);
-background: linear-gradient(17deg, 
-rgba(46,149,87,1) 0%, 
-rgba(102,205,170,1) 13%, 
-rgba(11,131,115,1) 100%);
-color: white;
-padding: 5px;padding-inline: 10px;
+border-radius: 10px;
 
 }
 .circular--square {
