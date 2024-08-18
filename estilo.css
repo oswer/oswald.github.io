@@ -11,7 +11,7 @@ html body{
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
 	overflow:hidden; /* Eliminamos errores de float */
-	background-image: url("img/headerniña.jpg");
+	background-image: url("images/headerniña.jpg");
 	background-size: cover;
 	max-width:1000px;
 	margin-bottom:20px;
