@@ -315,11 +315,12 @@ width: 100%;
 background: rgb(50,38,247);
 */
 
-.logotipo{
-	position: absolute;
+.img{
+	position: relative;float: left;
+	border-radius: 0px;
+	max-width: 200px;
    
 }
-
 .titulo-bonito2{
 width: 100%;
 border: 1px solid green;
