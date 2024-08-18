@@ -174,8 +174,13 @@ background-color:#fff;
 justify-content: center;
   border-radius: 10px;
   overflow: hidden;
+font-family: "Merienda", cursive;
+ font-size: 1em;
 }
-
+.articulos p{
+	font-family: "Roboto", cursive;
+	font-size: 1.2em;
+}
 .menu-secundario{
 width: 40%;
 margin-top: 0px;
