@@ -108,19 +108,18 @@ ul, ol{
 .nav li a{
 
 border: 1px solid green;
-background: rgb(255,255,224);
-background: linear-gradient(17deg, 
-rgba(46,149,87,1) 0%, 
-rgba(102,205,170,1) 13%, 
-rgba(11,131,115,1) 100%);
-color: white;text-decoration: none;
-font-family: arial, helvetica, sans-serif;
+background: #66cdaa;
+color: white;  
+font-family: "Merienda", cursive;
+ font-size: 0.9em;
+ animation: text 5s linear infinite;
 padding: 10px 15px;
 display: block;
 border-radius: 15px 10px 15px 10px;
 }
 .nav li a:hover{
-	background-color:  #a9dfbf ;
+	font-family:  arial, helvetica, sans-serif;
+	background-color: #2f4f4f; 
 }
 .nav > li{
 	float: left;
