@@ -24,9 +24,9 @@ header {
 	margin:auto; /* Centramos los elementos */
 	overflow:hidden; /* Eliminamos errores de float */
 }
-header .merienda {  
+header .merienda {  background-color: #fff8dc;
   font-family: "Merienda", cursive;
- font-size: 1em;
+ font-size: 0.7em;
  animation: text 5s linear infinite;
 }
 /*
