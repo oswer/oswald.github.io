@@ -281,7 +281,7 @@ position: relative;
 .slider-frame ul {
 display: flex;
 padding: 10;
-width: 300%;
+width: 350%;
 animation: slide 20s infinite alternate ease-in-out;
 }
 
