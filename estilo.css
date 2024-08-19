@@ -305,7 +305,7 @@ background: rgb(50,38,247);
 */
 
 .img{
-	position: relative;float: left;
+	position: absolute;float: left;
 	border-radius: 0px;
 	max-width: 200px;
    
