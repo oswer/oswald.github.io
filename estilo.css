@@ -5,8 +5,7 @@
 }
 html body{
 	background-color: white;
-	font-family: "Inter", sans-serif;
-	padding-top: 20px;padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
