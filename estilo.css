@@ -188,8 +188,8 @@ background-color: #f7dc6f;
 max-width: 1000px;
 border-radius: 0px;
 margin: 5px;
-font-family: "Roboto", cursive;
-font-size: 1.2em;
+font-family: "Merienda", cursive;
+font-size: 1em;
 
 
 }
@@ -210,8 +210,10 @@ footer{
 	max-width:1000px;
 }
 footer p{
-	text-align: center;
-	padding: 0px;
+text-align: center;
+padding: 0px;
+font-family: "Merienda", cursive;
+ font-size: 1em;
 }
 
 
