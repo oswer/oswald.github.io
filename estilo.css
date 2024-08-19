@@ -336,8 +336,8 @@ width: 100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 border-radius: 10px;
-font-family: "Roboto", cursive;
-font-size: 1em;
+  font-family: "Merienda", cursive;
+ font-size: 1em;
 
 }
 .circular--square {
