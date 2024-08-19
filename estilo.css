@@ -188,14 +188,18 @@ background-color: #f7dc6f;
 max-width: 1000px;
 border-radius: 0px;
 margin: 5px;
+font-family: "Roboto", cursive;
+font-size: 1.2em;
 
 
 }
 .menu-secundario a{
-	display: block;
-	text-align: center;
-	color: black;
-	margin-bottom: 20px;
+font-family: "Roboto", cursive;
+font-size: 1.2em;
+display: block;
+text-align: center;
+color: black;
+margin-bottom: 20px;
 }
 footer{
 	width: 100%;
@@ -330,6 +334,8 @@ width: 100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 border-radius: 10px;
+font-family: "Roboto", cursive;
+font-size: 1em;
 
 }
 .circular--square {
