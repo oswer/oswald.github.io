@@ -5,6 +5,7 @@
 	<title>El migrante solitario ha sido creada sin fines de lucro, el sitio sigue en constante mejora!!</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width" />
@@ -17,7 +18,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 
-   
+     <!-- Style of the plugin -->
+     <link rel="stylesheet" href="plugin/components/Font Awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
 
 
 <script>
@@ -89,30 +92,32 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 
 	<div class="fb-like" data-href="https://www.facebook.com/profile.php?id=61557321424816&amp;mibextid=rS40aB7S9Ucbxw6v" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 	
-		<div class="wrapper">
-		
+	<div class="wrapper">
+	
+			
 		<nav>
 		
 		<ul class="nav">
 			<li><a href="">INICIO</a>
 			<ul>
-				<li><a href="enlace-web/porque.html">Por qué ?</a></li>
-				<li><a href="enlace-web/quien.html">Quien Soy ?</a></li>
+				<li><a href="enlace-web/porque.html">Por qué?</a></li>
+				<li><a href="enlace-web/quien.html">Quién soy? ?</a></li>
 			</ul>
 
 			</li>
 			<li><a href="">MIGRACIÓN</a>
 				<ul>
-				<li><a href="enlace-web/MIGRA.html">Datos</a></li>
-				<li><a href="enlace-web/selva.html">Selvadarien</a></li>
+				<li><a href="enlace-web/MIGRA.html">DATOS</a></li>
+				<li><a href="enlace-web/selva.html">S.DARIÉN</a></li>
 				</ul>
 			</li>
 			<LI><a href="">SERVICIOS</a>
-			<ul>
-				<li><a href="enlace-web/publi.html">Publicidad</a></li>
-				<li><a href="enlace-web/paginas.html">Páginas web</a></li>
-				</ul>
-			</LI>
+			     <ul>
+        			<li><a href="enlace-web/publi.html">Publicidad</a></li>
+       		 		<li><a href="enlace-web/paginas.html">PaginasWeb</a></li>
+        		</ul>
+        	</LI>
+
 			
 			<li><a href="enlace-web/ayuda.html">AYUDAS</a></li>
 
@@ -121,23 +126,23 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 	</nav>
 	
 	 </div>
+
 	<div id="fecha">
-	<script>
+	 <script>
+
 let meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 let diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
 let f = new Date();
 document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
 	</script>
 	</div>
-     </div>
 
-	
+     </div>
+  
+
 
 	</header>
-	
 
-
-	<Marquee>Este sitio web sigue desarrollandose, gracias por tu apoyo y por visitar este sitio web</Marquee>
 
 	<div class="contenido">
 
@@ -187,11 +192,8 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
 	</div>
 
 	
-       
-
 
 	<div class="menu-secundario"> 
-
 	<div class="titulo-bonito2"><h4 align="center">ESTADOS DE VENEZUELA</h4></div>
 	  <br><center><img src="images/headerciudad.jpeg" width="150" height="70"></center>
 	  <center>
@@ -199,8 +201,8 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
             <option value="enlace-web/amazonas.html" selected="selected">AMAZONAS</option>
             <option value="enlace-web/amazonas.html">AMAZONAS</option>
             <option value="enlace-web/anzoategui.html">ANZOATEGUI</option>
-            <option value="enlace-web/guasdualito.html">APURE</option>
-            <option value="enlace-web/maracay.html">ARAGUA</option>
+            <option value="enlace-web/apure.html">APURE</option>
+            <option value="enlace-web/aragua.html">ARAGUA</option>
             <option value="enlace-web/barinas.html">BARINAS</option>
             <option value="enlace-web/bolivar.html">BOL&Iacute;VAR</option>
             <option value="enlace-web/carabobo.html">CARABOBO</option>
@@ -238,6 +240,51 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
 	</footer>
 
 	</div>
+
+	  <!-- Button Whatsapp Structure -->
+  <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+    <div class="wcs_button_label">
+            Contáctame
+        </div>  
+    <div class="wcs_button wcs_button_circle">
+        <span class="fa fa-whatsapp"></span>
+    </div>  
+ 
+    <div class="wcs_popup">
+        <div class="wcs_popup_close">
+            <span class="fa fa-close"></span>
+        </div>
+        <div class="wcs_popup_header">
+            <span class="fa fa-whatsapp"></span>
+            <strong>Servicio al cliente</strong>
+            
+            <div class="wcs_popup_header_description">¿Necesidad de ayuda? Chatea con nosotros en Whatsapp</div>
+
+        </div>  
+        <div class="wcs_popup_input" 
+            data-number="528123861273"
+            data-availability='{ "monday":"07:00-22:30", "tuesday":"07:00-22:30", "wednesday":"07:7030-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
+            <input type="text" placeholder="Escribir pregunta!" />
+            <i class="fa fa-play"></i>
+        </div>
+        <div class="wcs_popup_avatar">
+            <img src="https://avatars.githubusercontent.com/janl?s=180" alt="">
+        </div>
+    </div>
+</div>
+
+
+    <!-- jQuery 1.8+ -->
+<script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+    <!-- Plugin JS file -->
+<script src="plugin/components/moment/moment.min.js"></script>
+<script src="plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
+<script src="plugin/whatsapp-chat-support.js"></script>
+<script>
+   $('#button-w').whatsappChatSupport({
+        defaultMsg : '',
+    });
+</script>
+
 </body>
 </html>
-
