@@ -175,8 +175,7 @@ background-color:#fff;
 justify-content: center;
   border-radius: 10px;
   overflow: hidden;
-font-family: "Merienda", cursive;
- font-size: 1em;
+ 
 }
 .articulos p{
 	font-family: "Merienda", cursive;
@@ -195,7 +194,7 @@ font-size: 1em;
 
 }
 .menu-secundario a{
-font-family: "Monaco", cursive;
+font-family: "Merienda", cursive;
 font-size: 1.2em;
 display: block;
 text-align: center;
