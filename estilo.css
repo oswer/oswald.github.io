@@ -168,6 +168,7 @@ img {
 	max-width: 1000px;
 }
 .articulos{display: flex;
+	   margin-left:10px;
 	flex-flow: row wrap;
 width: 100%;
 max-width: 1000px;
