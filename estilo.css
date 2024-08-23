@@ -216,7 +216,13 @@ padding: 0px;
 font-family: "Merienda", cursive;
  font-size: 1em;
 }
-
+.img-izq{
+	float:left;border: 1px solid #000;border-radius: 10px;
+	max-width: 300px;
+}
+ .texto{display: inline-block;
+  vertical-align: top;
+ }
 
 /*BARNER PUBLICITARIO LEEEEEEO POR FAVOR
    .dj-banner{
