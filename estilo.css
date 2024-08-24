@@ -7,7 +7,6 @@ html body{
 	background-image: url("images/fondo.jpg");
 	background-size: cover;
 	padding-bottom: 10px;
-	font-family:arial, helvetica, sans-serif;
 }
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
@@ -175,6 +174,8 @@ background-color:#fff;
 justify-content: center;
   border-radius: 10px;
   overflow: hidden;
+  font-family: "Merienda", cursive;
+ font-size: 1em;
 }
 .articulos p{
 	font-family: "Merienda", cursive;
