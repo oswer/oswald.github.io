@@ -162,10 +162,6 @@ max-width: 1000px;
 background-color:#fff;
 justify-content: center; 
 overflow: hidden;
- font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-font-size: 1em;
 }
 
 .menu-secundario{
@@ -175,9 +171,6 @@ background-color: #f7dc6f;
 max-width: 1000px;
 border-radius: 0px;
 margin: 5px;
- font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
 font-size: 1em;
 
 
