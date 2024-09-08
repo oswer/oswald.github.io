@@ -98,7 +98,9 @@ ul, ol{
 border: 1px solid green;
 background: #66cdaa;
 color: white;  
-font-family: "Merienda", cursive;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
  font-size: 0.8em;
  animation: text 5s linear infinite;
 padding: 10px 15px;
@@ -160,7 +162,9 @@ max-width: 1000px;
 background-color:#fff;
 justify-content: center; 
 overflow: hidden;
-font-family: arial, helvetica, sans-serif;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 font-size: 1em;
 }
 
@@ -171,13 +175,17 @@ background-color: #f7dc6f;
 max-width: 1000px;
 border-radius: 0px;
 margin: 5px;
-font-family: arial, helvetica, sans-serif;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 font-size: 1em;
 
 
 }
 .menu-secundario a{
-font-family: "Monaco", cursive;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 font-size: 1em;
 display: block;
 text-align: center;
@@ -195,7 +203,9 @@ footer{
 footer p{
 text-align: center;
 padding: 0px;
-font-family: "Monaco", cursive;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
  font-size: 1em;
 }
 .img-izq{
@@ -246,7 +256,9 @@ font-family: "Monaco", cursive;
 }
 
 #fecha {
-font-family: "Merienda", cursive;
+ font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 font-size: 1em;
 color: white;
 background: rgb(25,25,24);
@@ -308,7 +320,9 @@ width: 100%;
 border: 1px solid green;
 background: rgb(255,255,224);
 border-radius: 10px;
-  font-family: "Merienda", cursive;
+   font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
  font-size: 1em;
 
 }
