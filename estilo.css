@@ -159,7 +159,7 @@ img {
 flex-flow: row wrap;
 width: 100%;
 max-width: 1000px;
-background-color:#fff;
+background-color:#ffC;
 justify-content: center; 
 overflow: hidden;
 }
