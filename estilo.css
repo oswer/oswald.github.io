@@ -256,7 +256,7 @@ font-family: "Monaco", cursive;
 #fecha {
 font-family: "Monaco", cursive;
 	font-size: 1.2em;
- overflow: hidden;
+ overflow: hidden; background-color:#f7dc6f;
 }
 
 
