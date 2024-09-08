@@ -154,20 +154,16 @@ img {
 	max-width: 1000px;
 }
 .articulos{display: flex;
-	flex-flow: row wrap;
+flex-flow: row wrap;
 width: 100%;
 max-width: 1000px;
 background-color:#fff;
-justify-content: center;
-	   margin:5px;
-  overflow: hidden;
-  font-family: "Merienda", cursive;
- font-size: 1em;
+justify-content: center; margin:5px;
+overflow: hidden;
+font-family: arial, helvetica, sans-serif;
+font-size: 1em;
 }
-.articulos p{
-	font-family: "Monaco", cursive;
-	font-size: 1em;
-}
+
 .menu-secundario{
 width: 40%;
 margin-top: 0px;
@@ -175,7 +171,7 @@ background-color: #f7dc6f;
 max-width: 1000px;
 border-radius: 0px;
 margin: 5px;
-font-family: "Monaco", cursive;
+font-family: arial, helvetica, sans-serif;
 font-size: 1em;
 
 
