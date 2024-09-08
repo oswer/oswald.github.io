@@ -8,14 +8,11 @@ html body{
 	background-size: cover;
 	padding-bottom: 10px;
 }
-header {
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
-	overflow:hidden; /* Eliminamos errores de float */
-	background-image: url("images/headerciudad.jpeg");
-	background-size: cover;height:150px;
+header{
+	background-image: url("images/fondito.png");
+	background-size: cover;
+	height: 150px;
 	max-width:1000px;
-	margin-bottom:20px;
-	margin-left: 0%;
 }
 
 .wrapper {
