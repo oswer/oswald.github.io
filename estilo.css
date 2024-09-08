@@ -7,7 +7,8 @@ html body{
 
 }
 header{
-	background-image: url("images/fondito.png");
+	background: linear-gradient(rgba(225, 248, 220, 0.55), 
+	rgba(225, 248, 220, 0.55)), url("images/fondito.png");
 	background-size: cover;
 	height: 150px;
 	max-width:1000px;
@@ -250,8 +251,8 @@ font-family: "Monaco", cursive;
 
 #fecha {
 font-family: "Monaco", cursive;
-	font-size: 1.2em;
- overflow: hidden; background-color:#f7dc6f;
+font-size: 1.2em;
+ overflow: hidden; background-color:#228b22;
 }
 
 
