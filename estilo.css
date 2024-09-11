@@ -1,0 +1,333 @@
+*{
+	padding: 0;
+	
+	margin: 0;
+}
+html body{
+background-color:#66CDAA;
+}
+header{
+	background: linear-gradient(rgba(225, 248, 220, 0.15), 
+	rgba(225, 248, 220, 0.35)), url("images/fondito.png");
+	background-size: cover;
+	height: 150px;
+	max-width:1000px;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+header .merienda {  
+	background-color: #fff8dc;
+  font-family: "Merienda", cursive;
+ font-size: 0.7em;
+ animation: text 5s linear infinite;
+}
+/*
+@keyframes text{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(0deg);
+	}
+}
+*/
+header nav {
+	float:left;
+	margin-left: 0px;
+	margin-top: 10px;
+	line-height:100px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:10px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+/*
+nav ul{
+	background-color: #757575;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline-flex;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover{
+	background-color: black;
+}
+*/
+
+
+#contenedor{
+	position: absolute;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#body{
+	background-color:  #58d68d ;
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+
+border: 1px solid black;
+background: #66CDAA;
+color: black;  
+font-family: "Merienda";
+ animation: text 5s linear infinite;
+padding: 10px 15px;
+display: block;
+border-radius: 15px 10px 15px 10px;
+}
+.nav li a:hover{
+	font-family: sans-serif;
+	background-color:#2F4F4F; color: white;
+}
+.nav > li{
+	float: left;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right: -140px;
+	top: 0px;
+}
+/* para que no agarre la imagen y la redondeeeeeeeee
+
+	background-color:#145a32;
+	color: black;
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif;
+	padding: 10px 15px;
+	display: block;
+*/
+
+#titulo-principal{
+	font-family:  sans-serif;
+	font-size: 1.3em;
+	text-align: center;width: 100%;
+}
+img {
+	
+	max-width: 300px;margin-right:5px;
+}
+
+.contenido{
+	display: flex;
+	width: 100%;
+	background-color: #ffc;
+	max-width: 1000px;
+}
+
+.articulos{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+max-width: 1000px;
+background-color:#E0FFFF;
+justify-content: center;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+.menu-secundario{
+width: 40%;
+margin-top: 0px;
+background-color: #f7dc6f;
+max-width: 1000px;
+margin: 5px;
+border-radius: 0px;
+ font-family: "Roboto", sans-serif;
+
+
+}
+.menu-secundario a{
+	display: block;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+  font-weight: 900;
+  font-style: italic;
+	font-size: 1.2em;
+}
+footer{
+	width: 100%;
+	background-color:#f7dc6f;
+	color: black;
+	border :1px solid #000;
+	margin-top: 0px;
+	max-width:1000px;
+}
+footer p{
+	text-align: center;   
+	font-family: sans-serif;
+}
+
+.img-izq{
+	float:left;border: 1px solid #000;border-radius: 10px;
+	max-width: 300px;
+}
+ .texto{display: inline-block;
+  vertical-align: top;
+ }
+/*BARNER PUBLICITARIO LEEEEEEO POR FAVOR
+   .dj-banner{
+   	margin: 30px 0; 
+   	position: relative;}
+   .dj-banner .dj-bg{
+   	background-image: url(img/logo-pan.png); 
+   	background-repeat: no-repeat; 
+   	background-position: center; 
+   	background-size: cover; 
+   	width: 80%;}
+   .dj-banner .dj-bg img{
+   	display: block; 
+   	margin: 20px auto; 
+   	padding: 20px 0;}
+   .dj-banner .dj-text{
+   	text-align: center; 
+   	padding-bottom: 20px;}
+   @media screen and (min-width:568px){
+      .dj-banner .dj-bg img{
+      	margin-right: 100px;}
+      .dj-banner .dj-text{
+      	position: absolute; 
+      	top: 50%; 
+      	left: 10%;
+      	 transform: translate(-10%, -50%); 
+      	width: 50%; 
+      	text-align: 
+      	left;}
+      .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+      .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+   }*/
+
+
+#fecha {
+ font-family: sans-serif;
+font-size: 1em;
+color: black;
+background-color: #f7dc6f;
+}
+
+
+.slider-frame {
+width: 400px;
+height: 200px;
+margin:5px auto 0;
+overflow: hidden;
+position: relative;
+}
+
+.slider-frame ul {
+display: flex;
+padding: 10px;
+width: 350%;
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+width: 100%;
+list-style: none;
+}
+
+.slider-frame img {
+width: 100%;
+}
+
+@keyframes slide {
+	20% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	45% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	50% {margin-left: -200%;}
+	
+	100% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/*NUEVO MENU  IZQUIERDO  EEEEEEO POR FAVORp¨
+
+background: rgb(50,38,247);
+*/
+
+.img{
+	position: relative;
+
+	border-radius: 0px;
+	max-width: 180px;
+   
+}
+
+.titulo-bonito2{
+width: 100%;
+border: 1px solid green;
+background: rgb(255,255,224);
+border-radius: 10px;  
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.circular--square {
+  border-radius: 50%;
+}
+
+
+			
+
+
+	
