@@ -180,8 +180,7 @@ display: flex;
 flex-flow: row wrap;
 width: 100%;
 max-width: 1000px;
-background: linear-gradient(rgba(163, 228, 215, 0.15), 
-rgba(225, 248, 220, 0.35));
+background-color:#1abc9c;
 margin: 5px;
 border-radius: 10px;
 font-family: "Roboto", sans-serif;
