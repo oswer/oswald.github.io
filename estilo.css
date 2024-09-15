@@ -175,13 +175,15 @@ overflow: hidden;
 }
 
 .menu-secundario{
-width: 40%;
-margin-top: 0px;
-background-color: #f7dc6f;
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+width: 100%;
 max-width: 1000px;
+background-color: #f7dc6f;
 margin: 5px;
-border-radius: 0px;
- font-family: "Roboto", sans-serif;
+border-radius: 10px;
+font-family: "Roboto", sans-serif;
 
 
 }
