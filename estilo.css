@@ -249,7 +249,7 @@ footer p{
 /*CARUUSEL DE IMAGENES*/
 .slider-container {
   display: flex;
-  width: 100%;
+  width: 50%;
   height: 50vh;
   overflow-x: scroll;
 /* Vamos a añadir esto 👇 */
@@ -258,7 +258,7 @@ footer p{
 
 .slider-container img {
   flex: 0 0 100%;
-  width: 100%;
+  width: 50%;
   object-fit: cover;
   /* Vamos a añadir esto 👇 */
   scroll-snap-align: center;
