@@ -240,13 +240,13 @@ footer p{
       .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
    }
 */
-/*CARUUSEL DE IMAGENES*/
+/*CARUUSEL DE IMAGENES
 .slider-container {
   display: flex;
   width: 100%;
   height: 50vh;
   overflow-x: scroll;
-/* Vamos a añadir esto 👇 */
+Vamos a añadir esto 👇
   scroll-snap-type: x mandatory;
 }
 
@@ -256,7 +256,7 @@ footer p{
   object-fit: cover;
   /* Vamos a añadir esto 👇 */
   scroll-snap-align: center;
-}
+}*/
 #fecha {
  font-family: sans-serif;
 font-size: 1em;
