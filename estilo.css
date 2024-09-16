@@ -250,7 +250,7 @@ footer p{
 .slider-container {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   overflow-x: scroll;
 /* Vamos a añadir esto 👇 */
   scroll-snap-type: x mandatory;
