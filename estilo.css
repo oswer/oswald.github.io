@@ -216,7 +216,7 @@ footer p{
  .texto{display: inline-block;
   vertical-align: top;
  }
-
+/*
    .dj-banner{
    	margin: 30px 0; 
    	position: relative;}
@@ -247,7 +247,7 @@ footer p{
       .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
       .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
    }
-
+*/
 #fecha {
  font-family: sans-serif;
 font-size: 1em;
