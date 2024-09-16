@@ -35,13 +35,7 @@ return true;
 };
 });
 </script>
-  <style>
-  @media screen and (max-width:760px) {
-  .col-xs-8 {
-    width: 100%!important;
-  }
-  }
-  </style>
+
 </head>
 <body class="container-articles container">
 
@@ -80,13 +74,22 @@ return true;
 		
 	</nav>
 	
-	 </div>
+ </div>
 
-     </div>
+ </div>
+
+</header>
 
 	
+<div id="fecha">
+<script>
 
-	</header>
+let meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+let diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+let f = new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+</div>
 
 	<!--  MARQUESIMA ANUNCIOS
 	<Marquee><a target="_blank" href="https://www.amp.dev">
@@ -95,7 +98,8 @@ return true;
 	<div class="contenido">
 	<div class="articulos">
 		
-<div class="titulo-bonito2"><h2>LA SELVA DEL DARIEN</h2></div><br>
+<div class="titulo-bonito2">
+<h2>LA SELVA DEL DARIEN</h2></div><br>
 <iframe width="450" height="315" src="https://www.youtube.com/embed/3L3bLhnmzHs?si=GJyEx9zzFiFs-yWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
 <em>Atravesar la selva del Darién supone caminar poco más de 100 kilómetros
 entre el noreste de Colombia y el suroeste de Panamá. 
