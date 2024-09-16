@@ -258,8 +258,8 @@ background-color: #f7dc6f;
 
 
 .slider-frame {
-width: 400px;
-height: 200px;
+width: 450px;
+height: 300px;
 margin:5px auto 0;
 overflow: hidden;
 position: relative;
@@ -267,7 +267,7 @@ position: relative;
 
 .slider-frame ul {
 display: flex;
-padding: 10px;
+padding: 2px;
 width: 350%;
 animation: slide 20s infinite alternate ease-in-out;
 }
