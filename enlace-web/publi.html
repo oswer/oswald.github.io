@@ -18,57 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-<!-- 
-<script>
-$(document).ready(function() {
-document.onkeydown = function(e){
-if (e.ctrlKey &&
-(e.keyCode === 67 ||
-e.keyCode === 86 ||
-e.keyCode === 85 ||
-e.keyCode === 117)) {
-return false;
-} else {
-return true;
-}
-};
-});
-</script>
-<script type="text/JavaScript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
 
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-
-function MM_jumpMenu(targ,selObj,restore){ //v3.0
-  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-  if (restore) selObj.selectedIndex=0;
-}
-
-function MM_jumpMenuGo(selName,targ,restore){ //v3.0
-  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
-}
-//-->
-</script>
   <style>
   @media screen and (max-width:760px) {
   .col-xs-8 {
@@ -77,14 +27,10 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
   }
   </style>
   
-</head>
-
-<body class="container-articles container">
-
-<div class="contenedor">
+<body>
  
 
-<header>
+<header class="header">
 
     <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v19.0" nonce="JY4HD8v8"></script>
@@ -95,7 +41,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 
     <div class="wrapper">
 
-  <nav>
+  <nav class="navbar">
   
   <ul class="nav">
       <li><a href="../index.html">INICIO</a>
@@ -123,21 +69,13 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
     </ul>
     
   </nav>
-  
-   </div>
-
-	
-     </div>
 
   
   </header>
 
+<div class="articulos">
 
-	<div class="contenido">
-
-	<div class="articulos">
-
-  <div class="titulo-bonito2"><h3 align="center">¿Cómo Publicar?</h3></div>
+  <h3 align="center">¿Cómo Publicar?</h3>
 	
 	<br><p>Te ofresco servicio de 
 		anunciarte en mi sitio web, por tan solo 5
