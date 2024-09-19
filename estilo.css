@@ -38,7 +38,7 @@ overflow: hidden;
 font-family: Merienda, cursive;
 color: black;
  animation: text 5s linear infinite;
-padding: 20px 15px;
+padding: 10px 15px;
  display: block;
 }
 .nav li a:hover{
