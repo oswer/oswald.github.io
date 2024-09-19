@@ -26,28 +26,16 @@ header{
 	overflow: hidden;
 }
 
-a{
-    text-decoration: none;
-}
-#header{
-	margin: auto;
-	width: 100%;
-	font-family: arial, helvetica, sans-serif;
-}
 ul, ol{
 	list-style: none;
 }
 .nav li a{
 width: 100%;
 border: 1px solid black;
-background-color: var(--color_primario_suave);
-
 overflow: hidden;
 color: white;
- font-family: Merienda, cursive;
- top: var(--altura_header);
  animation: text 5s linear infinite;
-padding: 18px 15px;
+padding: 20px 15px;
  display: block;
  align-items: center;
 border-radius: 15px 10px 15px 10px;
