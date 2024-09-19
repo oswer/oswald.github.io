@@ -31,7 +31,8 @@ ul, ol{
 }
 .nav li a{
 width: 100%;
-background: rgb(255,255,224
+background: rgb(255,255,224);
+border-radius: 10px;  
 border: 1px solid black;
 overflow: hidden;
 color: white;
