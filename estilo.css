@@ -42,8 +42,9 @@ padding: 20px 15px;
  display: block;
 }
 .nav li a:hover{
-	font-family: sans-serif;
-	background-color:#2F4F4F; color: white;
+font-family: sans-serif;
+background-color:#2F4F4F;
+color: white;
 }
 .nav > li{
 	float: left;
