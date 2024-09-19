@@ -80,7 +80,7 @@ header{
 		filter: hue-rotate(0deg);
 	}
 }
-*/
+
 header nav {
 	float:left;
 	margin-left: 0px;
@@ -105,7 +105,7 @@ header nav a:hover {
 	background:#f56f3a;
 	border-radius:50px;
 }
-
+*/
 /*
 nav ul{
 	background-color: #757575;
