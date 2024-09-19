@@ -20,7 +20,7 @@ p {
 }
 
 .jumbotron {
-        background-image: url(../img/fondo11.jpg);
+        background-image: url(images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
