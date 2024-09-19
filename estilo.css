@@ -16,38 +16,6 @@ header{
 	height: 150px;
 	max-width:1000px;
 }
-.header {
-    height: var(--altura_header);
-    background-color: var(--color_primario);
-}
-.navbar {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 var(--padding_left_right);
-}
-nav ul{
-	background-color: #757575;
-	width: 100%;
-	list-style-type: none;
-	text-align: center;
-}
-
-nav li{
-	display: inline-flex;
-}
-nav a{
-	text-decoration: none;
-	color: white;
-	padding: 10px;
-	width: 150px;
-}
-nav li:hover{
-	background-color: black;
-}
-*/
 
 
 #contenedor{
