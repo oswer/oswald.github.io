@@ -37,8 +37,6 @@ color: white;
  animation: text 5s linear infinite;
 padding: 20px 15px;
  display: block;
- align-items: center;
-border-radius: 15px 10px 15px 10px;
 }
 .nav li a:hover{
 	font-family: sans-serif;
