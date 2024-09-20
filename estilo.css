@@ -227,10 +227,9 @@ border-radius: 10px;
 font-family: Merienda, cursive;
 }
 
-.roboto-black-italic {
+.caja {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+ width:200px;
 }
 .circular--square {
   border-radius: 50%;
