@@ -1,0 +1,214 @@
+:root {
+    --color_primario: #ffc;
+    --color_primario_suave: #ffc;
+    --color_blanco: #000;
+    --altura_header: 80px;
+    --padding_left_right: 2rem;
+    --ancho_maximo: 1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+.header {
+   background: linear-gradient(rgba(225, 248, 220, 0.15), 
+  rgba(225, 248, 220, 0.35)), url("images/fondito.png");
+  background-size: cover;
+  height: 150px;
+  max-width:1000px;
+}
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 var(--padding_left_right);
+}
+.menu_hamburguesa{
+    display: none;
+}
+.menu_hamburguesa:checked + .ul_links {
+    height: calc(100vh - var(--altura_header));
+}
+.logo {
+    color: var(--color_blanco);font-family: Merienda, cursive;
+
+}
+.labe_hamburguesa {
+}
+.list_icon {
+    color: var(--color_blanco);
+    cursor: pointer;
+}
+.ul_links {
+    width: 100%;
+    background-color: var(--color_primario_suave);
+    position: absolute;
+    top: var(--altura_header);
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    /* height: calc(100vh - var(--altura_header)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    transition: all .3s;
+}
+.li_links {
+}
+.link {
+    font-size: 3em;
+    color: var(--color_blanco);
+    font-weight: bold;
+}
+
+@media (min-width:768px){
+    .labe_hamburguesa {
+        display: none;
+    }
+    .ul_links{
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    /* DESDE AQUI EMPIEZO LAS MODIFICACIONES*/
+      .ul_links ul li{
+       display: none;
+       position: absolute;
+        min-width: 140px;
+    }
+    .ul_links li:hover > ul{
+    display: block;
+}
+.ul_links li ul li{
+    position: relative;
+}
+
+
+    /*FIN DE LAS MODIFICACIONE¨*/
+
+
+
+    .link{
+        font-size: 1.2rem;
+        transition: all .3s;
+        padding: .2rem .7rem;
+    }
+    .link:hover{
+        background-color:#66CDAA;
+    }
+}
+
+#titulo-principal{
+  font-family:  sans-serif;
+  font-size: 1.3em;
+  text-align: center;width: 100%;
+}
+img {
+  
+  max-width: 300px;margin-right:5px;
+}
+
+.contenido{
+  display: flex;
+  width: 100%;
+  background-color: #ffc;
+  max-width: 1000px;
+}
+
+.articulos{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+max-width: 1000px;
+background-color:#E0FFFF;
+justify-content: center;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+.titulo-bonito2{
+width: 100%;
+border: 1px solid green;
+background: rgb(255,255,224);
+
+
+}
+
+
+
+
+footer{
+  width: 100%;
+  background-color:#f7dc6f;
+  color: black;
+  border :1px solid #000;
+  margin-top: 0px;
+  max-width:1000px;
+}
+footer p{
+  text-align: center;   
+  font-family: sans-serif;
+}
+
+
+
+.select-css {
+ display: block;
+ font-size: 16px;
+ font-family: 'Arial', sans-serif;
+ font-weight: 400;
+ color: #444;
+ line-height: 1.3;
+ padding: .4em 1.4em .3em .8em;
+ width: 400px;
+ max-width: 100%; 
+ box-sizing: border-box;
+ margin: 0;
+ border: 1px solid #aaa;
+ box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+ border-radius: .3em;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+ background-color: #fff;
+ background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+   linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+ background-repeat: no-repeat, repeat;
+ background-position: right .7em top 50%, 0 0;
+ background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+ display: none;
+}
+.select-css:hover {
+ border-color: #888;
+}
+.select-css:focus {
+ border-color: #aaa;
+ box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+ box-shadow: 0 0 0 3px -moz-mac-focusring;
+ color: #222; 
+ outline: none;
+}
+.select-css option {
+ font-weight:normal;
+} 
