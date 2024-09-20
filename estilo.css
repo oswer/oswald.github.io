@@ -229,7 +229,9 @@ font-family: Merienda, cursive;
 
 .caja {
   font-family: "Roboto", sans-serif;
- width:200px;
+ width:100px;border: 2px solid green;
+background: rgb(255,255,224);
+border-radius: 10px;  
 }
 .circular--square {
   border-radius: 50%;
