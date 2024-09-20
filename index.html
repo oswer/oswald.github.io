@@ -1,15 +1,11 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>El migrante solitario ha sido creada sin fines de lucro, el sitio sigue en constante mejora!!</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-  
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<!--<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">-->
+
+	<link rel="stylesheet" href="style.css">
 
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -88,55 +84,65 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
   </style>
 </head>
 
-<header class="header">
+<body>
 
-    
+
+	<header class="header">
 	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v19.0" nonce="JY4HD8v8"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v19.0" nonce="JY4HD8v8"></script>
 
-	<div class="fb-like" data-href="https://www.facebook.com/profile.php?id=61557321424816&amp;mibextid=rS40aB7S9Ucbxw6v" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
-		
-		<ul class="nav">
-			<li><a href="">INICIO</a>
-			<ul>
-				<li><a href="enlace-web/porque.html">Por qué?</a></li>
-				<li><a href="enlace-web/quien.html">Quién soy?</a></li>
-			</ul>
+  
+  <div class="fb-like" data-href="https://www.facebook.com/profile.php?id=61557321424816&amp;mibextid=rS40aB7S9Ucbxw6v" data-width="" data-layout="" data-action="" data-size="" data-share="true">
+  	
+  </div>
+            <nav class="navbar">
+                <h1 class="logo">El Migrante Solitario</h1>
 
-			</li>
-			<li><a href="" class="link">MIGRACIÓN</a>
-				<ul>
-				<li><a href="enlace-web/MIGRA.html">Migración</a></li>
-				<li><a href="enlace-web/selva.html">Selvadarien</a></li>
-				</ul>
-			</li>
-			<LI><a href="">SERVICIOS</a>
-			     <ul>
-        			<li><a href="enlace-web/publi.html">Publicidad</a></li>
-       		 		<li><a href="enlace-web/paginas.html">PaginasWeb</a></li>
-        		</ul>
-        	</LI>
+                <label class="labe_hamburguesa" for="menu_hamburguesa">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="currentColor"
+                        class="list_icon"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                        />
+                    </svg>
+                </label>
 
-		</ul>
-		
-	
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
 
-</header>
+                <ul class="ul_links">
+                    <li class="li_links"><a href="#" class="link">Inicio</a>
+                        <ul>
+                            <li class="li_links"><a href="">Quien Soy?</a></li>
+                            <li class="li_links"><a href="">Por que?</a></li>
+                        </ul>
+                    </li>
+                    <li class="li_links">
+                        <a href="#" class="link">Sobre mi</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="#" class="link">Productos</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
 
 
 	<div class="articulos">
 
-<div id="fecha">
-
-<script>
+   <script>
 
 let meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 let diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
 let f = new Date();
 document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-	</script>
-	</div>
-
+  </script>
 	<div class="titulo-bonito2"> <h2 align="center">Sitios de interés</h2></div>
 	
 		<a href="https://www.saime.gob.ve/"><img src="images/cedula-identidad-venezuela.webp" alt="bancoVenezuela" width="120" height="100"></a>
@@ -175,6 +181,7 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
 		<a href="https://www.claro.com.co/personas/servicios/servicios-moviles/prepago/recarga-en-linea/"><img src="images/claro.jpeg" width="120" height="100"></a>
 <a href="https://lakalle.bluradio.com/"><img src="images/lakalle.jpeg" alt="" width="120" height="100"></a>
 
+
 <BR><br><h2 align="center">Conociendo a mi pueblo bello de aragua</h2>
 <div class="sidebar-box">
 <img src="images/iglesia01.jpg" width="160" height="130">
@@ -190,16 +197,12 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
   <option value="enlace-web/sanfrancisco.html">San Francisco</option>
 <option value="enlace-web/magdaleno.html">Magdaleno</option>
   </select>
-</div><!--
- <input type="button" name="Button1"  onclick="MM_jumpMenuGo('menu1','parent',0)" />-->
-
-
+</div>
 
 	<footer>
-		<p>Todos los derechos de autor son Resevados a @Oswaldopacheco</p>
+		<p>Todos los derechos de autor son Resevados al MigranteSolitario-creado por @Oswaldopacheco</p>
 	</footer>
 
-  <script src="js/main.js"></script>
 	</div>
 
 	  <!-- Button Whatsapp Structure -->
