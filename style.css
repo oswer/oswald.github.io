@@ -212,3 +212,40 @@ footer p{
 .select-css option {
  font-weight:normal;
 } 
+.slider-frame {
+width: 450px;
+height: 300px;
+margin:5px auto 0;
+overflow: hidden;
+position: relative;
+}
+
+.slider-frame ul {
+display: flex;
+padding: 5px;
+width: 400%;
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+width: 100%;
+list-style: none;
+}
+
+.slider-frame img {
+width: 100%;
+}
+
+@keyframes slide {
+  20% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  45% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  50% {margin-left: -200%;}
+  
+  100% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
