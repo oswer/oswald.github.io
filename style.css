@@ -1,3 +1,11 @@
+:root {
+    --color_primario: #66CDAA;
+    --color_primario_suave: #66CDAA;
+    --color_blanco: #000;
+    --altura_header: 80px;
+    --padding_left_right: 2rem;
+    --ancho_maximo: 1200px;
+}
 
 *{
     margin: 0;
