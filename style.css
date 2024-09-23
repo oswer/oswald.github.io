@@ -98,6 +98,7 @@ ol,ul{
     }
     .link:hover{
         background-color:#2F4F4F;
+        color:#fff;
     }
 }
 
