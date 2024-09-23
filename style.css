@@ -89,22 +89,6 @@ ol,ul{
         flex-direction: row;
         gap: 2rem;
     }
-    /* DESDE AQUI EMPIEZO LAS MODIFICACIONES*/
-      .ul_links ul li{
-       display: none;
-       position: absolute;
-        min-width: 140px;
-    }
-    .ul_links li:hover > ul{
-    display: block;
-}
-.ul_links li ul li{
-    position: relative;
-}
-
-
-    /*FIN DE LAS MODIFICACIONE¨*/
-
 
 
     .link{
