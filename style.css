@@ -236,3 +236,36 @@ width: 100%;
   100% {margin-left: -300%;}
   100% {margin-left: -300%;}
 }
+
+
+
+ .mainmenubtn{
+background-color: skyblue;
+color: black;
+cursor: pointer;
+padding: 20px;
+margin-top: 20px;
+}
+.mainmenubtn:hover{
+background-color: #ffc;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.dropdown-child{
+display: none;
+background-color: skyblue;
+min-width: 200px;
+}
+.dropdown-child a{
+color: blue;
+padding: 20px;
+text-decoration:none;
+}
+.dropdown:hover .dropdown-child{
+display: block;
+}
+
+
+
