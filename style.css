@@ -240,14 +240,15 @@ width: 100%;
 
 
  .mainmenubtn{
-background-color: skyblue;
+background-color: #ffc;
 color: black;border: 1px solid green;
 cursor: pointer;
 padding: 20px;
 margin-top: 20px;
 }
 .mainmenubtn:hover{
-background-color: #ffc;
+background-color:#2F4F4F;
+color:#fff;
 }
 .dropdown{
 position: relative;
