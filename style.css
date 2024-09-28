@@ -241,13 +241,13 @@ width: 100%;
 
  .mainmenubtn{
 background-color: skyblue;
-color: black;
+color: black;border: 1px solid green;
 cursor: pointer;
 padding: 20px;
 margin-top: 20px;
 }
 .mainmenubtn:hover{
-background-color: BLUE;
+background-color: #ffc;
 }
 .dropdown{
 position: relative;
