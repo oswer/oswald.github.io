@@ -86,13 +86,37 @@ document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.ge
 
 <div class="titulo-bonito2">
 <h2 align="center">Noticias</h2></div><br>
-	
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+function imgover(imgname){
+imgname.src = "arrow.gif"
+}
+function imgout(imgname){
+imgname.src = "blank.gif"
+}
+// End -->
+</SCRIPT>	
+<img src="images/gorritaa.png"  border="0" width="120">
+Lista de temas:<br>
+<UL>
+<LI><img name="pic1" SRC="blank.gif" width=10 height=10 border=0>
+<A href="indice.html" 
+onMouseOver="imgover(pic1)" onMouseOut="imgout(pic1)" 
+style="color:red; text-decoration:none"; >Indice</A>
 
-	<img src="images/gorritaa.png"  border="0" width="120"><h2>Migración Venezolana</h2><br>
+<LI><img name="pic2" SRC="blank.gif" width=10 height=10 border=0>
+<A href="MIGRA.html" 
+onMouseOver="imgover(pic2)" onMouseOut="imgout(pic2)" 
+style="color:red; text-decoration:none"; >Migración Venezolana</A>
+
+<LI><img name="pic3" SRC="blank.gif" width=10 height=10 border=0>
+<A href="desaparecidos.html" 
+onMouseOver="imgover(pic3)" onMouseOut="imgout(pic3)" 
+style="color:red; text-decoration:none"; >Desaparecidos en la isla de San andrés</A>
+
+</UL>
    
-          <a href="MIGRA.html">Migración</a><br>
      
-          <a href="desaparecidos.html">Desaparecidos en la isla de san andres</a><br>
 
 </div>
 	    
