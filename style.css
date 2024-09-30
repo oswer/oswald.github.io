@@ -239,34 +239,4 @@ width: 100%;
 
 
 
- .mainmenubtn{
-background-color: #ffc;
-color: black;border: 1px solid green;
-cursor: pointer;
-padding: 20px;
-margin-top: 20px;
-}
-.mainmenubtn:hover{
-background-color:#2F4F4F;
-color:#fff;
-}
-.dropdown{
-position: relative;
-display: inline-block;
-}
-.dropdown-child{
-display: none;
-background-color: skyblue;
-min-width: 200px;
-}
-.dropdown-child a{
-color: blue;
-padding: 20px;
-text-decoration:none;
-}
-.dropdown:hover .dropdown-child{
-display: block;
-}
-
-
 
