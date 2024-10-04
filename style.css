@@ -142,18 +142,17 @@ background: rgb(255,255,224);
 
 
 
-
-footer{
-  width: 100%;
-  background-color:#f7dc6f;
+/* Footer */
+#mainfooter {
+  text-align: center;
+  padding: 30px;
   color: black;
-  border :1px solid #000;
   margin-top: 0px;
-  max-width:1000px;
+  width: 100%;
 }
-footer p{
-  text-align: center;   
-  font-family: Merienda, cursive;
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 
