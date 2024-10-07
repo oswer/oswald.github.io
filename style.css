@@ -103,8 +103,10 @@ max-width:1000px;
         padding: .2rem .7rem;
     }
     .link:hover{
-   background-color:#FFFF00;
-font-size: 16px;
+   background-color:black;
+    color:#FFF8DC;
+    text-shadow: 3px 3px 3px red;
+    font-size: 16px;
         
     }
 }
