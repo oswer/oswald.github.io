@@ -100,7 +100,7 @@ ol,ul{
         padding: .2rem .7rem;
     }
     .link:hover{
-    background: rgb(255,255,224);
+   background-color:#87CEFA;
     }
 }
 
