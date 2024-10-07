@@ -97,11 +97,7 @@ ol,ul{
         padding: .2rem .7rem;
     }
     .link:hover{
-  background: linear-gradient(rgba(225, 248, 220, 0.35), 
-  rgba(225, 248, 220, 0.35)), url("images/fondito.png");
-  background-size: cover;
-  height: 150px;
-  max-width:1000px;
+    background: rgb(255,255,224);
     }
 }
 
