@@ -23,7 +23,7 @@ ol,ul{
     list-style: none;
 }
 .header {
-   background: linear-gradient(rgba(225, 248, 220, 0.55), 
+   background: linear-gradient(rgba(225, 248, 220, 0.35), 
   rgba(225, 248, 220, 0.35)), url("images/fondito.png");
   background-size: cover;
   height: 150px;
@@ -97,9 +97,11 @@ ol,ul{
         padding: .2rem .7rem;
     }
     .link:hover{
-        background-color:#2F4F4F;
-        color:#fff;
-  font-family: Merienda, cursive;
+  background: linear-gradient(rgba(225, 248, 220, 0.35), 
+  rgba(225, 248, 220, 0.35)), url("images/fondito.png");
+  background-size: cover;
+  height: 150px;
+  max-width:1000px;
     }
 }
 
