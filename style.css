@@ -55,11 +55,8 @@ ol,ul{
 }
 .ul_links {
     width: 100%;
-    background: linear-gradient(rgba(225, 248, 220, 0.15), 
-    rgba(225, 248, 220, 0.35)), url("images/fondito.png");
-    background-size: cover;
-     /*  background-color: var(--color_primario_suave);
-    position: absolute;*/
+    background-color: var(--color_primario_suave);
+    position: absolute;
     top: var(--altura_header);
     left: 0;
     height: 0;
