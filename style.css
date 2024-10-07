@@ -105,7 +105,7 @@ max-width:1000px;
     .link:hover{
    background-color:black;
     color:#FFF8DC;
-    text-shadow: 3px 3px 3px #FFFF00;
+    text-shadow: 3px 3px 3px white;
     font-size: 16px;
         
     }
