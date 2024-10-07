@@ -13,8 +13,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("images/fondo.jpg");
-    background-size: cover;
+   background-image: linear-gradient(#efeff5, #fff);
+height: 100vh;
   }
 a{
     text-decoration: none;
