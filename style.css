@@ -23,7 +23,7 @@ ol,ul{
     list-style: none;
 }
 .header {
-   background: linear-gradient(rgba(225, 248, 220, 0.15), 
+   background: linear-gradient(rgba(225, 248, 220, 0.55), 
   rgba(225, 248, 220, 0.35)), url("images/fondito.png");
   background-size: cover;
   height: 150px;
