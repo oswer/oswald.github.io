@@ -23,11 +23,14 @@ ol,ul{
     list-style: none;
 }
 .header {
-   background: linear-gradient(rgba(225, 248, 220, 0.15), 
-  rgba(225, 248, 220, 0.35)), url("images/fondito.png");
-  background-size: cover;
-  height: 150px;
-  max-width:1000px;
+background: linear-gradient(rgba(225, 248, 220, 0.15), 
+rgba(225, 248, 220, 0.35)), url("images/fondito.png");
+background-size: cover;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+justify-content: center;
+border-radius: 10px;
+height: 150px;
+max-width:1000px;
 }
 .navbar {
     height: 100%;
