@@ -202,5 +202,10 @@ width: 100%;
 }
 
 
+#myCarousel{
+	width: 500px;
+	position: relative;
+}
+
 
 
