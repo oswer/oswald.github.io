@@ -206,6 +206,24 @@ width: 100%;
 	width: 500px;
 	position: relative;
 }
+.marquee {
+      width: 100%;
+}  
+.marquee img {
+      width: 170px;
+ }
+.title {
+ font-size: 18pt;
+ position: absolute;
+ bottom: 70px;
+ left: 30px
+}
+.cont {
+ position: relative;
+ display: inline-block;
+}
+
+
 
 
 
