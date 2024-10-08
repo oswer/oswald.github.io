@@ -13,8 +13,10 @@
     box-sizing: border-box;
 }
 body{
-   background-image: linear-gradient(#efeff5, #fff);
-  }
+background-image: linear-gradient(#efeff5, #fff);
+max-width: 900px;
+margin: 0 auto;
+}
 a{
     text-decoration: none;
 }
