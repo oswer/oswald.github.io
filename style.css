@@ -14,7 +14,6 @@
 }
 body{
    background-image: linear-gradient(#efeff5, #fff);
-height: 100vh;
   }
 a{
     text-decoration: none;
@@ -76,37 +75,35 @@ max-width:1000px;
 .li_links {
 }
 .link {
-    color: var(--color_blanco);
-    font-weight: bold;
-    font-size: 2em;
-    border-radius: 3px;
-    text-transform: uppercase;
+color: var(--color_blanco);
+font-weight: bold;
+font-size: 2em;
 }
 
 @media (min-width:768px){
-    .labe_hamburguesa {
-        display: none;
-    }
-    .ul_links{
-        position: static;
-        width: auto;
-        height: auto;
-        flex-direction: row;
-        gap: 2rem;
-    }
+.labe_hamburguesa {
+display: none;
+}
+.ul_links{
+position: static;
+width: auto;
+height: auto;
+flex-direction: row;
+gap: 2rem;
+}
 
 
-    .link{
-        font-size: 1.2rem;
-        transition: all .5s;
-        padding: .2rem .7rem;
-    }
-    .link:hover{
-   background-color:black;
+.link{
+font-size: 1.2rem;
+transition: all .5s;
+padding: .2rem .7rem;
+}
+.link:hover{
+background-color:black;
 color:#FFF8DC;
-font-size: 16px;
+font-size: 2em;
         
-    }
+}
 }
 
 #titulo-principal{
